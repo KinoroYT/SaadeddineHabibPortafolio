@@ -1,0 +1,22 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav-b {
+    background-color: blue;
+    box-shadow: 0px 0px 5px 3px grey;
+    height: 55px;
+}
+
+.nav-l {
+    display: inline-block;
+    color: white;
+    
+
+}
+
+main {
+
+}
