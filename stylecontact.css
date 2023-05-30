@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+}
+
+nav{
+    text-align: left;
+    padding-left: 10px;
+}
+
+.nav-btn:visited, .nav-btn:link {
+    display: inline-block;
+    border-bottom: 2px solid #008cff;
+    border-right: 2px solid #008cff;
+    border-left: 2px solid #008cff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    background-color:#008cff;
+    color: white;
+    padding-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav-btn:hover, .nav-btn:focus {
+    display: inline-block;
+    border-bottom: 2px solid #008cff;
+    border-right: 2px solid #008cff;
+    border-left: 2px solid #008cff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: #008cff;
+    padding-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+form {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px #008cff solid;
+    width: 75%;
+    margin-top: 5%;
+    box-shadow: 0px 20px 0px 0px #008cff;
+}
+
+h2 {
+    margin: 0px;
+}
+
+label{
+    float: left;
+    padding: 5px 5px;
+}
+
+input[type=text], input[type=number], input[type=email], textarea {
+    padding: 10px 10px;
+    width: 100%;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+
+}
+
+textarea {
+    height: 150%;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=email]:focus, textarea:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px 1px #008cff;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+}
+
+.sub-btn {
+    border-radius: 10px;
+    background-color: #008cff;
+    color: white;
+    border: 0px white;
+    padding: 10px 30px;
+}

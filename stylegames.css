@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+nav{
+    text-align: left;
+}
+
+body { 
+    text-align: center ;
+}
+
+span {
+    font-weight: bold;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px #008cff solid;
+    margin-top: 5%;
+    box-shadow: 0px 20px 0px 0px #008cff;
+}
+
+.nav-btn:visited, .nav-btn:link {
+    display: inline-block;
+    border-bottom: 2px solid #008cff;
+    border-right: 2px solid #008cff;
+    border-left: 2px solid #008cff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    background-color:#008cff;
+    color: white;
+    padding-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav-btn:hover, .nav-btn:focus {
+    display: inline-block;
+    border-bottom: 2px solid #008cff;
+    border-right: 2px solid #008cff;
+    border-left: 2px solid #008cff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: #008cff;
+    padding-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    appearance: none;
+    padding: 10px 10px;
+    width: 25%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[name=result] {
+    padding: 10px 10px;
+    width: 25%;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[name=result]:focus{
+    padding: 10px 10px;
+    width: 25%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 10px;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+    text-align: center; 
+    cursor: pointer;
+}
+
+.sub-btn {
+    border-radius: 10px;
+    background-color: #008cff;
+    color: white;
+    border: 0px white;
+    padding: 10px 30px;
+}
+
+.check-mark {
+    visibility: hidden;
+    color: lightgreen;
+}
